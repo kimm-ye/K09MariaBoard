@@ -15,7 +15,7 @@ Map<String, Object> param = new HashMap<String, Object>();
 
 //검색 파라미터를 request 내장 객체를 통해 얻어온다.
 String searchField = request.getParameter("searchField");
-String searchWord = request.getParameter("searchWord");
+String searchWord = request.getParameter("searchWord"); 
 
 //검색어가 있는 경우에만..
 if (searchWord != null) {
